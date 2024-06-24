@@ -5,7 +5,9 @@ new Promise(function (resolve, reject) {
     if (Math.random() < 0.5) {
         reject("Rejected");
     }
-    resolve(num);
+    else {
+        resolve(num);
+    }
 }).then(function (answer) {
     console.log(`Number: ${answer}`); // num
 }).catch(function (err) {
