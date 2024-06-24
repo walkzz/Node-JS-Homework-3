@@ -6,7 +6,7 @@ function appendToFile(filepath, sentence) {
             console.error("Error appending to file:", err);
         }
         else {
-            console.log("Sentence appended successfully.");
+            console.log("Sentence appended successfully.", content);
         }
     });
 }
